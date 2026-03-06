@@ -23,13 +23,13 @@
     <button><a href="exercicio13.php">Exercicio 13</a></button>
     <button><a href="exercicio14.php">Exercicio 14</a></button>
     <button><a href="exercicio15.php">Exercicio 15</a></button>
-    <button>Exercicio 16</button>
-    <button>Exercicio 17</button>
-    <button>Exercicio 18</button>
-    <button>Exercicio 19</button>
-    <button>Exercicio 20</button>
-    <button>Exercicio 21</button>
-    <button>Exercicio 22</button>
+    <button><a href="exercicio16.php">Exercicio 16</a></button>
+    <button><a href="exercicio17.php">Exercicio 17</a></button>
+    <button><a href="exercicio18.php">Exercicio 18</a></button>
+    <button><a href="exercicio19.php">Exercicio 19</a></button>
+    <button><a href="exercicio20.php">Exercicio 20</a></button>
+    <button><a href="exercicio21.php">Exercicio 21</a></button>
+    <button><a href="exercicio22.php">Exercicio 22</a></button>
     <button>Exercicio 23</button>
     <button>Exercicio 24</button>
     <button>Exercicio 25</button>

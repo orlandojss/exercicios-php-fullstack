@@ -183,6 +183,74 @@
             return "Os valores informados não podem formar um triângulo.";
         }   
     }
+    //16. crie dois vetores de 10 posições e preencha um com a soma
+    // e o outro com a multiplicação entre eles
+    function mostrarVetor ($vetor){
+          //USAR UM OU OUTRO NUUUUNNNCCAAAAAAA OS DOIs
+        for ($i=0;$i<count($vetor);$i++){
+            echo $vetor[$i];
+        }
+        //ou usar esse (mais rapido e escreve menos)
+        foreach($vetor as $valor){
+            echo $valor. "<br>";
+        }
+    }
+    //17. Leia uma matriz 3x3 e imprima sua diagonal principal.
+    function mostrarMatriz ($matriz){
+        for ($i=0;$i<=2;$i++){
+            for($j=0;$j<=2;$j++){
+                if($i==$j){
+                    echo $matriz[$i][$j]." ";
+                }
+            }
+            echo "<br>";
+        }
+    }
+    //18. Leia 10 valores e calcule a média. Mostre os que estão acima dela
+    function mediaAcima($num){
+        $soma = 0;
+        for ($i = 0;$i < count($valores);$i++){
+            $soma = $soma + $valores[$i];
+        }
+
+        $media = $soma / count($valores);
+
+        echo "Média: " . $media . "<br>";
+        echo "Valores acima da média:<br>";
+
+        for($i = 0; $i < count($valores); $i++){
+            if($valores[$i] > $media){
+                echo $valores[$i] . "<br>";
+            }
+        }
+        
+    }
+    //19. . Leia uma matriz 4x4 e exiba a maior linha (com maior soma).
+    function maiorLinha($matriz){
+
+        $maiorSoma = 0;
+        $linhaMaior = 0;
+    
+        for($i = 0; $i < 4; $i++){
+    
+            $somaLinha = 0;
+    
+            for($j = 0; $j < 4; $j++){
+                $somaLinha += $matriz[$i][$j];
+            }
+    
+            if($somaLinha > $maiorSoma){
+                $maiorSoma = $somaLinha;
+                $linhaMaior = $i;
+            }
+        }
+    
+        echo "Linha com maior soma: <br>";
+    
+        for($j = 0; $j < 4; $j++){
+            echo $matriz[$linhaMaior][$j] . " ";
+        }
+    }
 
 
 
